@@ -1,0 +1,79 @@
+.body{
+    height: 100vh;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.contenedor-izquierdo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(252, 249, 249);
+    height: 100vh;
+    width: 30vh;
+}
+
+.chat-user{
+    font-size: 18px;
+    display: flex;
+    width: 28vh;
+    height: 5ch;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(209, 203, 203);
+    border: 1px solid rgb(178, 175, 175);
+    margin: 12px;
+
+}
+
+#ima-user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.perfil {
+    font-size: 20px;
+    display: flex;
+    width: 28vh;
+    height: 9vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(112, 139, 112);
+    border: 1px solid black;
+    padding: 1px;
+    border-color: black;
+
+}
+
+.contenedor-derecho{
+    background-image: url("../images/fondo.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 142vh;
+}
+
+#ima-perfil {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
