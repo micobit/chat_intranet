@@ -19,15 +19,35 @@
 
 .chat-user{
     font-size: 18px;
+    font-family: Roboto;
     display: flex;
     width: 28vh;
-    height: 5ch;
+    height: 88px;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(209, 203, 203);
     border: 1px solid rgb(178, 175, 175);
     margin: 12px;
 
+}
+
+.chat-user2 {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.chat-old {
+    font-size: 13px;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.no-leido {
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #ima-user {
@@ -63,17 +83,4 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-
 }
-
-.roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
